@@ -1,5 +1,3 @@
-<?php
-echo "
   <p align="center">
   Skye Owen-Lloyd-Walters ©
   <script type="text/javascript">
@@ -7,5 +5,5 @@ echo "
     var year = today.getFullYear()
     document.write(year)
     </script>
-  </p>";
-?>
+  </p>
+</html>
