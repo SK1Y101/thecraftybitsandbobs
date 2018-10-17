@@ -39,21 +39,18 @@
 			</div>
 			<br>
 			<br>
-			<div id="topbox">
+      <div id="topbox">
 
-				<br>
-				<p align="center">
-				Sorry, it looks like that page doesn't exist!<br>
-				Return to a previous page, or use the navigation bar above<br>
-				<br>
-				<button onclick="goBack()" class="button button">Go Back</button><br>
-				<script>
-					function goBack()
-					{
-					    window.history.back();
-					}
-				</script>
-			</p>
+				<br><a href="javascript:history.back()" class="t">Go Back</a><br>
+
+        <div id="contentbox">
+          <h2>Item name</h2>
+          <img src="Images/Main logo.jpg" alt="My Logo" width="25%" align="left" hspace=20 onerror="if (this.src != '../Images/not_available.jpg') this.src = '../Images/not_available.jpg';"></img>
+  				<h3>
+            Item Description<br>
+            Item Price
+  				</h3>
+        </div>
 
 			</div>
 		</div>
